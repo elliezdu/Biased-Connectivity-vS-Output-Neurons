@@ -7,8 +7,6 @@ This project explores the spatial distribution of neurons in the ventral subicul
 
 Using anatomical coordinates (AP, ML, DV), we visualise and compare how neuron populations differ in space.
 
----
-
 ## Dataset
 
 Data from:
@@ -22,8 +20,6 @@ Each dataset contains neuron coordinates:
 
 Three datasets were combined into a single dataframe for analysis.
 
----
-
 ## Analysis Overview
 
 ### 1. 3D Spatial Visualisation
@@ -33,7 +29,6 @@ Interactive 3D scatter plot showing neuron positions across AP, ML, DV axes.
 - Colour indicates projection target (PFC, NAc, LH)
 - Reveals overall structure and overlap between populations
 ![3D Plot](projection_3d.png)
----
 
 ### 2. Cumulative Distribution (ECDF)
 
@@ -48,8 +43,6 @@ At a given coordinate value, the ECDF shows the fraction of neurons located at o
 
 This allows comparison of spatial bias between projection targets.
 
----
-
 ### 3. Box Plots
 
 Distribution of neuron positions along each axis grouped by projection target.
@@ -58,13 +51,10 @@ Distribution of neuron positions along each axis grouped by projection target.
 - Shows spread and outliers
 - Enables clear comparison across PFC, NAc, LH
 ![Box Plot](boxplot_distribution.png)
----
 
 ### 4. Summary Statistics
 
 Mean spatial coordinates were computed for each projection target to quantify differences.
-
----
 
 ## Key Insights
 
