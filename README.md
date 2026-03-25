@@ -1,5 +1,7 @@
 # Ventral Subiculum Neuron Spatial Analysis
 
+Computational analysis of neuron projection patterns using Python and data visualisation.
+
 This project explores the spatial distribution of neurons in the ventral subiculum (vS) projecting to different brain regions:
 - PFC (prefrontal cortex)
 - NAc (nucleus accumbens)
@@ -28,7 +30,8 @@ Interactive 3D scatter plot showing neuron positions across AP, ML, DV axes.
 
 - Colour indicates projection target (PFC, NAc, LH)
 - Reveals overall structure and overlap between populations
-![3D Plot](projection_3d.png)
+
+<img src="projection_3d.png" width="700">
 
 ### 2. Cumulative Distribution (ECDF)
 
@@ -36,7 +39,8 @@ Cumulative distribution plots along each axis:
 - AP
 - ML
 - DV
-![ECDF Plot](ecdf_subplots.png)
+
+<img src="ecdf_subplots.png" width="700">
 
 **Interpretation:**
 At a given coordinate value, the ECDF shows the fraction of neurons located at or below that point.
@@ -50,7 +54,8 @@ Distribution of neuron positions along each axis grouped by projection target.
 - Highlights median differences
 - Shows spread and outliers
 - Enables clear comparison across PFC, NAc, LH
-![Box Plot](boxplot_distribution.png)
+
+<img src="boxplot_distribution.png" width="700">
 
 ### 4. Summary Statistics
 
@@ -59,8 +64,9 @@ Mean spatial coordinates were computed for each projection target to quantify di
 ## Key Insights
 
 - Neurons projecting to different targets show **subtle but consistent spatial biases**
-- i.e. Overlapping but not distinct
+- i.e. overlapping but not clearly distinct
 - Differences are most visible in:
   - AP (anterior–posterior)
   - DV (depth)
 - ML axis shows more gradual variation
+Overall, spatial organisation appears structured but partially overlapping across projection targets.
